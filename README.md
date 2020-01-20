@@ -9,7 +9,7 @@ In this notebook I present a work on multivariable logistic regression using Iri
 
 **Linear discriminant analysis**:
 * LDA seeks to reduce dimensionality while preserving 	as much of the class discriminatory information as possible
-* Assume we have a set of N-dimensional samples of which *N1* belong to class *w1*, and *N2* to class w2*
+* Assume we have a set of N-dimensional samples of which *N1* belong to class *w1*, and *N2* to class *w2*
 * We seek to obtain a scalar y by projecting the samples onto a line 
 * Of all the possible lines we would like to select the one that maximizes the separability of the scalars.
-*Fisher suggested maximizing the difference between the means, normalized by a measure of the within-class scatter
+* Fisher suggested maximizing the difference between the means, normalized by a measure of the within-class scatter
