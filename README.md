@@ -13,3 +13,6 @@ In this notebook I present a work on multivariable logistic regression using Iri
 * We seek to obtain a scalar y by projecting the samples onto a line 
 * Of all the possible lines we would like to select the one that maximizes the separability of the scalars.
 * Fisher suggested maximizing the difference between the means, normalized by a measure of the within-class scatter
+
+**MLP**:
+A numpy based multilayer perceptron model
