@@ -8,9 +8,8 @@ In this notebook I present a work on multivariable linear regression using Bosto
 In this notebook I present a work on multivariable logistic regression using Iris dataset, there are three possible categories for classification.
 
 **Linear discriminant analysis**:
-\begin{itemize}
-	\item LDA seeks to reduce dimensionality while preserving 	as much of the class discriminatory information as 	possible
-	\item Assume we have a set of ??-dimensional samples 	${x_{1},...,x_{n}}, N_{1}$ of which belong to class 	$w_{1}$, and $N_{2}$ to class $w_{2}$
-	\item We seek to obtain a scalar ?? by projecting the 	samples ?? onto a line $$y=w^{T}x $$
-	\item Of all the possible lines we would like to select 	the one that maximizes the separability of the scalars.
-	\item Fisher suggested maximizing the difference between 	the means, normalized by a measure of the within-class 	scatter
+* LDA seeks to reduce dimensionality while preserving 	as much of the class discriminatory information as possible
+* Assume we have a set of N-dimensional samples of which *N1* belong to class *w1*, and *N2* to class w2*
+* We seek to obtain a scalar y by projecting the samples onto a line 
+* Of all the possible lines we would like to select the one that maximizes the separability of the scalars.
+*Fisher suggested maximizing the difference between the means, normalized by a measure of the within-class scatter
